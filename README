@@ -1,4 +1,0 @@
-Latex should be installed in the given img
-In case you want to install on other machines
-Install Latex
-$ sudo apt-get install texlive-full
