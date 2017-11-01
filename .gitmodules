@@ -1,6 +1,3 @@
 [submodule "sis-proposal-huchanwei"]
 	path = sis-proposal-huchanwei
 	url = https://github.com/Sensing-Intelligent-System/sis-proposal-huchanwei.git
-[submodule "sis-proposal-johnsonwang"]
-	path = sis-proposal-johnsonwang
-	url = https://github.com/Sensing-Intelligent-System/sis-proposal-johnsonwang.git
