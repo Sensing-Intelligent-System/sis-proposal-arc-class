@@ -23,13 +23,12 @@
 %\usepackage{amssymb}  % assumes amsmath package installed
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
-\graphicspath{ {images/} }
+\graphicspath{ {../images/} }
 
 
 \title{\LARGE \bf
 Team Proposal Title - Individual Proposal Subtitle
 }
-
 
 \author{Your Name$^{1}$ and Bernard D. Researcher$^{2}$% <-this % stops a space
 \thanks{*This work was supported by the Robotics Master Program in National Chiao Tung University, Taiwan}% <-this % stops a space
@@ -42,18 +41,16 @@ Team Proposal Title - Individual Proposal Subtitle
 
 \begin{document}
 
-
-
 \maketitle
 \thispagestyle{empty}
 \pagestyle{empty}
 
 
-\input{team-parts.tex}
+\input{../team-parts.tex}
 
 % you should modify the xxx to your submodule repo, but no need to commit this change
 %\input{sis-proposal-xxx/individual-proposal.tex}
-\input{sis-proposal-xxx/individual-proposal.tex}
+\input{individual-proposal.tex}
    
 
 \addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
@@ -64,6 +61,6 @@ Team Proposal Title - Individual Proposal Subtitle
                                   % sure that you do not shorten the textheight too much.
 
 \bibliographystyle{IEEEtran}
-\bibliography{egbib}
+\bibliography{../egbib}
 
 \end{document}
